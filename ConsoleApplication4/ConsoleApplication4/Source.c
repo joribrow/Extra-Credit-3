@@ -2,10 +2,10 @@
 
 int main(void)
 {
-	int number;
-	printf("Enter an integer: ");
-	scanf("%d", &number);
-	printf("You entered: %d \n", number);
+	float userInput = 0;
+	printf("Enter a float: ");
+	scanf("%f", &userInput);
+	printf("You entered: %f \n", userInput);
 
 	return 0;
 }
